@@ -57,7 +57,7 @@ function Mission() {
             data-scroll-speed={-0.5}
             src={INTRO_1.src}
             alt=""
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover blur-2xl"
           />
         </div>
         <div className="bg-green-700 md:w-2/3 text-white py-24 md:py-28 px-5 md:pl-0 md:px-10 z-30 relative">

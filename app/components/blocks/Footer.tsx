@@ -36,7 +36,9 @@ function Footer() {
           <div>
             <img src={LOGO.src} alt="logo" className="w-28" />
           </div>
-          <p className="mt-3 text-xs sm: text-gray-600">© 2025 Preline Labs.</p>
+          <p className="mt-3 text-xs sm: text-gray-600">
+            © 2026 Swift Relief Foundation.
+          </p>
         </div>
         {/* End Col */}
 

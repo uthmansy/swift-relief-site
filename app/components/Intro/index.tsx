@@ -49,7 +49,7 @@ function Intro() {
           ref={imgRef}
           src={INTRO_1.src}
           alt=""
-          className="w-full object-cover h-[120%]"
+          className="w-full object-cover h-[120%] blur-2xl"
         />
       </div>
       <div className="w-full md:w-1/2 lg:w-2/3 py-24 md:py-40 px-5 md:pl-24 relative">
