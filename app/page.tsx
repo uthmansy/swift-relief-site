@@ -5,6 +5,7 @@ import Mission from "./components/Mission";
 import BlogSection from "./components/blocks/BlogSection";
 import Container from "./components/Container";
 import Footer from "./components/blocks/Footer";
+import VideoSection from "./components/blocks/VideoSection";
 
 export default function Home() {
   return (
@@ -16,6 +17,12 @@ export default function Home() {
           <BlogSection />
         </Container>
       </section> */}
+      <section className="py-14 bg-neutral-50">
+        <Container>
+          <VideoSection />
+        </Container>
+      </section>
+
       <Mission />
       <section className="bg-neutral-200">
         <Footer />

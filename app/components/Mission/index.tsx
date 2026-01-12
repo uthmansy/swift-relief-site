@@ -13,7 +13,7 @@ const items: Item[] = [
   {
     title: "Core Impact – Specialised Psychosocial Support",
     description:
-      "Delivered essential psychosocial support to almost 10,000 at-risk children in Chad, Niger, and Nigeria, with focused interventions for 5,000 displaced children in inaccessible regions of Borno State (Dikwa, Ngala, Marte, Kala Balge).",
+      "Delivered essential psychosocial support to almost 10,000 at-risk children in Chad, Niger, and Nigeria, with focused interventions for 5,000 displaced children in hard to reach areas.",
   },
   {
     title: "Innovative Methodology",
