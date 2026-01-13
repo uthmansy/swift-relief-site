@@ -1,4 +1,4 @@
-import React from "react";
+"use client";
 import { LOGO } from "@/app/constants/IMAGES";
 import Link from "next/link";
 import { menuItems } from "../Header/NavMenu";

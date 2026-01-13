@@ -16,9 +16,9 @@ import TEAM_3 from "../../public/images/team/nazir.jpg";
 import TEAM_4 from "../../public/images/team/wamball.jpg";
 import TEAM_5 from "../../public/images/team/basshir.jpg";
 import TEAM_6 from "../../public/images/team/dangaza.jpg";
-import PRODUCT_1 from "../../public/images/products/20-10-10.jpg";
-import PRODUCT_2 from "../../public/images/products/20-10-10+S.jpg";
-import PRODUCT_3 from "../../public/images/products/15-15-15.jpg";
+import GALLERY_IMG_1 from "../../public/images/gallery/1.jpg";
+import GALLERY_IMG_2 from "../../public/images/gallery/2.jpg";
+import GALLERY_IMG_3 from "../../public/images/gallery/3.jpg";
 
 export {
   LOGO,
@@ -39,7 +39,7 @@ export {
   TEAM_4,
   TEAM_5,
   TEAM_6,
-  PRODUCT_1,
-  PRODUCT_2,
-  PRODUCT_3,
+  GALLERY_IMG_1,
+  GALLERY_IMG_2,
+  GALLERY_IMG_3,
 };
