@@ -105,6 +105,16 @@ function AboutPage() {
                     economic empowerment, and the reintegration of education and
                     WASH services in fragile communities.
                   </p>
+                  <p className="text-lg text-gray-800">
+                    In 2021-2022, we implemented the research project "Hidden
+                    Crisis in Crises: A Transformative Agenda for Boko Haram and
+                    Education in the Countries of the Lake Chad Region through
+                    Visual Narratives". This project was delivered in
+                    collaboration with The Open University (UK), the University
+                    of Ibadan, and the Centre for the Study of Global
+                    Development, and was supported by The National Academies and
+                    the Grant Research Fund.
+                  </p>
 
                   <blockquote className="border-l-4 border-green-700 ps-4 italic text-gray-800 text-lg">
                     Our approach combines frontline psychosocial support with
@@ -168,9 +178,11 @@ function AboutPage() {
                   <ul className="mt-3 space-y-2 text-gray-700">
                     <li>• Mental Health & Psychosocial Support</li>
                     <li>• Youth Empowerment</li>
+                    <li>• Education</li>
                     <li>• Trauma-Informed Care</li>
                     <li>• Community Resilience</li>
                     <li>• Applied Research</li>
+                    <li>• Climate change</li>
                   </ul>
                 </div>
 
