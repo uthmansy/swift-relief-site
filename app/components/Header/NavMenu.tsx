@@ -9,6 +9,7 @@ export const menuItems = [
   { name: "About", href: "/about" },
   { name: "How We Work", href: "/how-we-work" },
   { name: "Events & Activities", href: "/events-and-activities" },
+  { name: "Publications", href: "/publications" },
   { name: "News", href: "/news" },
 ];
 
