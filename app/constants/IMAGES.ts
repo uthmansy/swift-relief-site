@@ -16,11 +16,15 @@ import TEAM_3 from "../../public/images/team/nazir.jpg";
 import TEAM_4 from "../../public/images/team/wamball.jpg";
 import TEAM_5 from "../../public/images/team/basshir.jpg";
 import TEAM_6 from "../../public/images/team/dangaza.jpg";
+import KARIM from "../../public/images/team/karim.png";
 import GALLERY_IMG_1 from "../../public/images/gallery/1.jpg";
 import GALLERY_IMG_2 from "../../public/images/gallery/2.jpg";
 import GALLERY_IMG_3 from "../../public/images/gallery/3.jpg";
+import AVATAR_DUMMY from "../../public/images/avartar-dummy.png";
 
 export {
+  AVATAR_DUMMY,
+  KARIM,
   LOGO,
   HERO,
   ABOUT_1,

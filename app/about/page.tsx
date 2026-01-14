@@ -7,6 +7,7 @@ import {
   GALLERY_IMG_2,
   GALLERY_IMG_3,
 } from "@/app/constants/IMAGES";
+import Team from "../components/Team";
 
 function AboutPage() {
   return (
@@ -165,6 +166,9 @@ function AboutPage() {
                     stability, dignity, and long-term resilience.
                   </p>
                 </div>
+                <Container>
+                  <Team />
+                </Container>
               </div>
             </div>
 
