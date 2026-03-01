@@ -11,6 +11,7 @@ export const menuItems = [
   { name: "Events & Activities", href: "/events-and-activities" },
   { name: "Publications", href: "/publications" },
   { name: "News", href: "/news" },
+  { name: "Contact", href: "/contact" },
 ];
 
 const NavMenu = () => {
