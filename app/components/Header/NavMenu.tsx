@@ -7,7 +7,7 @@ import { TfiClose } from "react-icons/tfi";
 export const menuItems = [
   { name: "Home", href: "/" },
   { name: "About", href: "/about" },
-  { name: "How We Work", href: "/how-we-work" },
+  { name: "Gallery", href: "/gallery" },
   { name: "Events & Activities", href: "/events-and-activities" },
   { name: "Publications", href: "/publications" },
   { name: "News", href: "/news" },

@@ -6,6 +6,12 @@ import {
   GALLERY_IMG_1,
   GALLERY_IMG_2,
   GALLERY_IMG_3,
+  GALLERY_IMG_4,
+  GALLERY_IMG_5,
+  GALLERY_IMG_6,
+  GALLERY_IMG_7,
+  GALLERY_IMG_8,
+  GALLERY_IMG_9,
 } from "@/app/constants/IMAGES";
 import Team from "../components/Team";
 
@@ -99,6 +105,37 @@ function AboutPage() {
                     conflict-affected populations.
                   </p>
 
+                  <div className="text-center">
+                    <div className="grid sm:grid-cols-2 gap-3">
+                      {/* First Image */}
+                      <figure className="relative w-full h-60 sm:h-96">
+                        <Image
+                          width={400}
+                          height={600}
+                          className="size-full absolute top-0 start-0 object-cover rounded-xl"
+                          src={GALLERY_IMG_4.src}
+                          alt="Advocacy and policy work"
+                        />
+                      </figure>
+
+                      {/* Second Image */}
+                      <figure className="relative w-full h-60 sm:h-96">
+                        <Image
+                          width={400}
+                          height={600}
+                          className="size-full absolute top-0 start-0 object-cover rounded-xl"
+                          src={GALLERY_IMG_5.src}
+                          alt="Team collaboration"
+                        />
+                      </figure>
+                    </div>
+
+                    <span className="mt-3 block text-sm text-gray-500">
+                      Advocacy, policy development, and internal team
+                      collaboration
+                    </span>
+                  </div>
+
                   <p className="text-lg text-gray-800">
                     In Borno State, Nigeria, we have successfully delivered
                     European Union-funded programmes and partnered with the
@@ -116,6 +153,25 @@ function AboutPage() {
                     Development, and was supported by The National Academies and
                     the Grant Research Fund.
                   </p>
+
+                  <div className="text-center">
+                    <div className="grid grid-cols-1">
+                      <figure className="relative w-full h-72 sm:h-96 lg:h-112.5">
+                        <Image
+                          width={1200}
+                          height={600}
+                          className="size-full absolute top-0 start-0 object-cover rounded-xl"
+                          src={GALLERY_IMG_6.src}
+                          alt="In-depth community workshop"
+                          priority // Add priority if this is the main image of the section
+                        />
+                      </figure>
+                    </div>
+
+                    <span className="mt-3 block text-sm text-gray-500">
+                      Detailed community-led workshops and training sessions
+                    </span>
+                  </div>
 
                   <blockquote className="border-l-4 border-green-700 ps-4 italic text-gray-800 text-lg">
                     Our approach combines frontline psychosocial support with
@@ -155,6 +211,47 @@ function AboutPage() {
                         donors, and UN agencies
                       </li>
                     </ul>
+                  </div>
+
+                  <div className="text-center">
+                    <div className="grid grid-cols-2 lg:grid-cols-3 gap-3">
+                      {/* Image 7 */}
+                      <figure className="relative w-full h-60">
+                        <Image
+                          width={400}
+                          height={400}
+                          className="size-full absolute top-0 start-0 object-cover rounded-xl"
+                          src={GALLERY_IMG_7.src}
+                          alt="Policy development meeting"
+                        />
+                      </figure>
+
+                      {/* Image 8 */}
+                      <figure className="relative w-full h-60">
+                        <Image
+                          width={400}
+                          height={400}
+                          className="size-full absolute top-0 start-0 object-cover rounded-xl"
+                          src={GALLERY_IMG_8.src}
+                          alt="Operational planning"
+                        />
+                      </figure>
+
+                      {/* Image 9 - Spans 2 columns on mobile for better fit */}
+                      <figure className="relative w-full h-60 col-span-2 lg:col-span-1">
+                        <Image
+                          width={400}
+                          height={400}
+                          className="size-full absolute top-0 start-0 object-cover rounded-xl"
+                          src={GALLERY_IMG_9.src}
+                          alt="Final program review"
+                        />
+                      </figure>
+                    </div>
+
+                    <span className="mt-3 block text-sm text-gray-500">
+                      Strategic planning and monitoring of field operations
+                    </span>
                   </div>
 
                   <p className="text-lg text-gray-800">

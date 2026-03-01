@@ -3,7 +3,8 @@
 import { TeamMember } from "@/app/types/team";
 import React, { useState } from "react";
 import MemberDetailsModal from "./MemberDetailsModal";
-import { AVATAR_DUMMY, KARIM } from "@/app/constants/IMAGES";
+import { KARIM, AMINA, MAKI, YAYA } from "@/app/constants/IMAGES";
+import Image from "next/image";
 
 const TEAM_MEMBERS: TeamMember[] = [
   {
@@ -11,7 +12,7 @@ const TEAM_MEMBERS: TeamMember[] = [
     name: "Mahamat Alkhassim Maki",
     role: "Art Therapist",
     bio: `Mahamat was born and raised in Karal, which is in the Lake Chad region. He is a dedicated art and mental health therapist who is deeply committed to healing and uplifting communities that have been touched by conflict. He is a husband and father of five, and both his personal and professional lives are strongly connected to the social fabric of the area. He specializes in culturally relevant, trauma-informed therapy that uses indigenous art forms to help vulnerable people get stronger, recover, and speak out. He does this by combining rigorous artistic and technical training with a lot of psychosocial practice.`,
-    image: AVATAR_DUMMY.src,
+    image: MAKI.src,
   },
   {
     id: "2",
@@ -21,6 +22,20 @@ He was born in Zinder, the second-largest city in Niger. ELHADJI ADAMOU SOULEYMA
 Actor, puppeteer, and set designer, he holds a professional degree in Arts and Theatrical Techniques obtained from the International School of Theatre of Benin, as well as a Master's degree in Performing Arts Research from Abdou MOUMOUNI DIOFFO University of Niamey.`,
     role: "Art Therapist",
     image: KARIM.src,
+  },
+  {
+    id: "3",
+    name: "Amina Adam",
+    bio: ``,
+    role: "Art Therapist",
+    image: AMINA.src,
+  },
+  {
+    id: "4",
+    name: "Yaya Sumain",
+    bio: ``,
+    role: "Art Therapist",
+    image: YAYA.src,
   },
 ];
 
@@ -38,17 +53,19 @@ function Team() {
         </div>
 
         {/* Grid */}
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-8 md:gap-12">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 md:gap-12">
           {TEAM_MEMBERS.map((member) => (
             <button
               key={member.id}
               onClick={() => setSelectedMember(member)}
               className="text-center focus:outline-none"
             >
-              <img
-                className="rounded-xl sm:size-48 lg:size-60 mx-auto object-cover"
+              <Image
+                className="aspect-square mx-auto object-cover rounded-full"
                 src={member.image}
                 alt={member.name}
+                width={300}
+                height={300}
               />
 
               <div className="mt-2 sm:mt-4">

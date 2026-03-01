@@ -8,6 +8,7 @@ import VideoSection from "./components/blocks/VideoSection";
 import Team from "./components/Team";
 import NewsSection from "./components/blocks/NewsSection";
 import PublicationsList from "./components/PublicationsList";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -49,9 +50,9 @@ export default function Home() {
           <div className="inline-block bg-white border border-gray-200 shadow-2xs rounded-full">
             <div className="py-3 px-4 flex items-center gap-x-2">
               <p className="text-gray-600">Want to read more?</p>
-              <a
+              <Link
                 className="inline-flex items-center gap-x-1.5 text-blue-600 decoration-2 hover:underline focus:outline-hidden focus:underline font-medium"
-                href="../docs/index.html"
+                href="/publications"
               >
                 Go here
                 <svg
@@ -68,7 +69,7 @@ export default function Home() {
                 >
                   <path d="m9 18 6-6-6-6" />
                 </svg>
-              </a>
+              </Link>
             </div>
           </div>
         </Container>

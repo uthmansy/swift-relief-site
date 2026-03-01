@@ -1,10 +1,14 @@
+import Image from "next/image";
+import { Aboubakar_ousmane_tchoroma } from "../constants/IMAGES";
+
 export const news = [
   {
-    slug: "network-research-report",
-    title: "Network Research Report",
+    slug: "i-am-project-collaboration-with-chad-minister-of-national-education",
+    title:
+      "Building a Future of Learning and Resilience: A New Partnership for Lake Chad",
     year: 2024,
-    pdfUrl: "/pdfs/Network_Research_Report.pdf",
-    thumbnail: "/pdfs/Network_Research_Report.png",
+    layout: "standard",
+    thumbnail: Aboubakar_ousmane_tchoroma.src,
     description:
       "A research publication on trauma-informed care and resilience.",
     content: (
@@ -21,6 +25,14 @@ export const news = [
                 Building a Future of Learning and Resilience: A New Partnership
                 for Lake Chad
               </h1>
+
+              <Image
+                className="size-full object-cover group-hover:scale-105 group-focus:scale-105 transition-transform duration-500 ease-in-out rounded-xl aspect-square"
+                src={Aboubakar_ousmane_tchoroma.src}
+                alt="Building a Future of Learning and Resilience: A New Partnership for Lake Chad"
+                width={400}
+                height={400}
+              />
 
               <p className="text-lg text-gray-800">
                 In a spirit of shared purpose and collaboration, a team from the

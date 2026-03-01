@@ -1,14 +1,17 @@
-import React from "react";
+import { GALLERY_IMG_2 } from "@/app/constants/IMAGES";
+import Image from "next/image";
 
 function ContactSection() {
   return (
     <div className="py-10">
       <div className="grid grid-cols-1 lg:grid-cols-2 lg:items-center gap-6 md:gap-8 lg:gap-12">
         <div className="aspect-w-16 aspect-h-6 lg:aspect-h-14 overflow-hidden bg-gray-100 rounded-2xl">
-          <img
-            className="group-hover:scale-105 group-focus:scale-105 transition-transform duration-500 ease-in-out object-cover rounded-2xl"
-            src="https://images.unsplash.com/photo-1572021335469-31706a17aaef?q=80&w=560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-            alt="Contacts Image"
+          <Image
+            width={400}
+            height={600}
+            className="group-hover:scale-105 group-focus:scale-105 transition-transform duration-500 ease-in-out object-cover rounded-2xl w-full"
+            src={GALLERY_IMG_2.src}
+            alt="Advocacy and policy work"
           />
         </div>
         {/* End Col */}
@@ -37,11 +40,11 @@ function ContactSection() {
                 </svg>
 
                 <div className="grow">
-                  <p className="text-sm text-gray-600">United Kingdom</p>
+                  <p className="text-sm text-gray-600">Nigeria, NG</p>
                   <address className="mt-1 text-black not-italic">
-                    300 Bath Street, Tay House
+                    N1 circular road, old off shehu Bukar street old GRA,
                     <br />
-                    Glasgow G2 4JR
+                    Maiduguri
                   </address>
                 </div>
               </div>
@@ -78,7 +81,7 @@ function ContactSection() {
                       className="relative inline-block font-medium text-black before:absolute before:bottom-0.5 before:start-0 before:-z-1 before:w-full before:h-1 before:bg-yellow-400 hover:before:bg-black focus:outline-hidden focus:before:bg-black"
                       href="mailto:example@site.so"
                     >
-                      hello@example.so
+                      info@swiftrelief.org
                     </a>
                   </p>
                 </div>
@@ -107,7 +110,7 @@ function ContactSection() {
                       className="relative inline-block font-medium text-black before:absolute before:bottom-0.5 before:start-0 before:-z-1 before:w-full before:h-1 before:bg-yellow-400 hover:before:bg-black focus:outline-hidden focus:before:bg-black"
                       href="mailto:example@site.so"
                     >
-                      +44 222 777-000
+                      +2348030640293
                     </a>
                   </p>
                 </div>
